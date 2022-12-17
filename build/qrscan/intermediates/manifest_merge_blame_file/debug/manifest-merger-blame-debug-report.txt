@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shinow.qrscan" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.CAMERA" />
+7-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:4:5-64
+7-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:4:22-62
+8    <uses-permission android:name="android.permission.VIBRATE" />
+8-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:5:5-65
+8-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:5:22-63
+9    <uses-permission android:name="android.permission.FLASHLIGHT" />
+9-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:6:5-68
+9-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:6:22-66
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:8:5-59
+11-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:8:19-57
+12    <uses-feature android:name="android.hardware.camera.autofocus" />
+12-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:9:5-69
+12-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:9:19-67
+13
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:11:5-67
+14-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:11:22-65
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:12:5-79
+15-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:12:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:13:5-80
+16-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:13:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:14:5-66
+17-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:14:22-64
+18
+19    <application>
+19-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:16:5-24:19
+20        <activity
+20-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:17:9-23:20
+21            android:name="com.shinow.qrscan.SecondActivity"
+21-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:18:17-47
+22            android:theme="@style/Theme.AppCompat.NoActionBar" >
+22-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:19:17-67
+23            <meta-data
+23-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:20:13-22:40
+24                android:name="flutterEmbedding"
+24-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:21:21-52
+25                android:value="2" />
+25-->/home/xceltec-065/src/flutter/.pub-cache/hosted/pub.dartlang.org/qrscan-0.3.3/android/src/main/AndroidManifest.xml:22:21-38
+26        </activity>
+27    </application>
+28
+29</manifest>

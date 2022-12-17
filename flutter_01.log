@@ -1,0 +1,70 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+SentinelException: [Sentinel kind: Collected, valueAsString: <collected>] from reloadSources()
+
+```
+#0      new _OutstandingRequest (package:vm_service/src/vm_service.dart:1718:45)
+#1      VmService._call (package:vm_service/src/vm_service.dart:2225:21)
+#2      VmService.reloadSources (package:vm_service/src/vm_service.dart:2084:7)
+#3      _reloadDeviceSources (package:flutter_tools/src/run_hot.dart:1185:32)
+<asynchronous suspension>
+#4      _defaultReloadSourcesHelper (package:flutter_tools/src/run_hot.dart:1124:65)
+<asynchronous suspension>
+#5      HotRunner._reloadSources (package:flutter_tools/src/run_hot.dart:906:38)
+<asynchronous suspension>
+#6      HotRunner._hotReloadHelper (package:flutter_tools/src/run_hot.dart:818:16)
+<asynchronous suspension>
+#7      HotRunner.restart (package:flutter_tools/src/run_hot.dart:720:36)
+<asynchronous suspension>
+#8      TerminalHandler._commonTerminalInputHandler (package:flutter_tools/src/resident_runner.dart:1627:40)
+<asynchronous suspension>
+#9      TerminalHandler.processTerminalInput (package:flutter_tools/src/resident_runner.dart:1680:7)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 2.10.5, on Linux Mint 20.3 5.4.0-91-generic, locale en_GB.UTF-8)
+    • Flutter version 2.10.5 at /home/xceltec-065/src/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 5464c5bac7 (6 months ago), 2022-04-18 09:55:37 -0700
+    • Engine revision 57d3bac3dd
+    • Dart version 2.16.2
+    • DevTools version 2.9.2
+
+[!] Android toolchain - develop for Android devices (Android SDK version 33.0.0)
+    • Android SDK at /home/xceltec-065/Android/Sdk
+    ✗ cmdline-tools component is missing
+      Run `path/to/sdkmanager --install "cmdline-tools;latest"`
+      See https://developer.android.com/studio/command-line for more details.
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/linux#android-setup for more details.
+
+[✗] Chrome - develop for the web (Cannot find Chrome executable at google-chrome)
+    ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/docs/get-started/install/linux#android-setup for detailed instructions).
+
+[✓] VS Code (version 1.71.1)
+    • VS Code at /usr/share/code
+    • Flutter extension version 3.50.0
+
+[✓] Connected device (1 available)
+    • RMX1911 (mobile) • 6b1c6d03 • android-arm64 • Android 10 (API 29)
+
+[✓] HTTP Host Availability
+    • All required HTTP hosts are available
+
+! Doctor found issues in 3 categories.
+```
